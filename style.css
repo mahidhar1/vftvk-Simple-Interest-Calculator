@@ -1,19 +1,49 @@
 body {
-    background-color:black;
-    font-family:arial;
-    color:white
+  background-color: black;
+  font-family: arial;
+  color: white;
 }
-h1{
-    color:grey;
-    font-family:verdana
-}
-
-.maindiv {
-    background-color: white;
-    color: black;
-    width: 300px; 
-    padding: 20px;
-    border-radius: 25px;
-    align: center;
+h1 {
+  color: grey;
+  font-family: verdana;
 }
 
+.mainDiv {
+  background-color: white;
+  color: black;
+  width: 500px;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 30%;
+}
+
+.mainDiv > div {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 25px;
+}
+
+.mainDiv > div > span {
+  margin-right: 25px;
+  width: 200px;
+}
+
+.mainDiv > div > div {
+  display: flex;
+  flex-direction: row;
+}
+
+input {
+  border-radius: 25px;
+}
+
+#yellowElement {
+  background-color: yellow;
+}
+
+#result {
+  width: 400px;
+}
